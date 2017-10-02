@@ -6,17 +6,18 @@ File path is relative to the css file itself and not the project
 folder as expected. This should have been mentioned in the course,
 or otherwise I have missed this info.
 */
-
+body {
+  text-align: center;
+}
 .intro {
   background-image: url("..//images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: helvetica;
-  text-align: center;
+  /* text-align: center; */
   color: white
 }
-
 /*should h1 below be .intro h1 {...} instead? */
 h1 {
   font-size: 70px;
@@ -25,4 +26,15 @@ h1 {
 nav, a {
   font-size: 18px;
   color: white;
+}
+.process-head {
+  font-size: 32px;
+  font-weight: bold;
+}
+.steps {
+  font-size: 23px;
+  font-weight: bold;
+}
+.infotext {
+  font-size: 14px;
 }
