@@ -24,7 +24,7 @@ h1 {
   font-size: 70px;
   font-weight: bold;
 }
-nav, a {
+a {
   font-size: 18px;
   color: white;
 }
@@ -46,4 +46,12 @@ nav, a {
   background-position: center; *re-used background-image in .intro**/
   font-size: 23px;
   font-weight: bold;
+}
+footer {
+  background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+.copyright {
+  font-size: 11px;
 }
