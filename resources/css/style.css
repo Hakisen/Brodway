@@ -8,14 +8,15 @@ or otherwise I have missed this info.
 */
 body {
   text-align: center;
+  font-family: helvetica;
 }
 .intro {
   background-image: url("..//images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: helvetica;
-  /* text-align: center; */
+  /* font-family: helvetica; *moved to body**/
+  /* text-align: center; *moved to body**/
   color: white
 }
 /*should h1 below be .intro h1 {...} instead? */
@@ -37,4 +38,12 @@ nav, a {
 }
 .infotext {
   font-size: 14px;
+}
+.divider {
+  /* background-image: url("..//images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; *re-used background-image in .intro**/
+  font-size: 23px;
+  font-weight: bold;
 }
